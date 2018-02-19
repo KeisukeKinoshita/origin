@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Abel";
 html body {
-  font-family: Abel,YuGothic,"メイリオ",Verdana,Meiryo,sans-serif; }
+  font-family: Abel,YuGothic,"メイリオ","しねきゃぷしょん",Verdana,Meiryo,sans-serif; }
 html li {
   list-style: none; }
 
@@ -264,5 +264,169 @@ header {
         margin-left: 0; }
     .skill .row:last-of-type {
       margin-bottom: 3%; } }
+
+@media (min-width: 551px) {
+  .work {
+    margin-top: 3%;
+    padding-bottom: 4.5%;
+    background-color: #d8d6c7; }
+    .work .container {
+      width: 92%; }
+    .work #work_title {
+      text-align: center;
+      color: white;
+      font-size: 33px;
+      margin-top: 1rem; }
+      .work #work_title p {
+        margin-bottom: 0; }
+    .work .box {
+      background-color: white;
+      margin-top: 1.5%; }
+    .work .box:last-of-type {
+      margin-top: 4%; }
+    .work #work1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .work #work1 .pc {
+        width: 27.5%;
+        margin-top: 1.5%;
+        margin-left: 15%;
+        margin-right: 8%; }
+        .work #work1 .pc .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work1 .pc .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left; }
+          .work #work1 .pc .owl-carousel .owl-dot {
+            width: 20px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work1 .pc .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work1 .pc .owl-carousel img {
+            height: 37rem; }
+      .work #work1 .sp {
+        width: 38.8%;
+        margin-top: 1.5%; }
+        .work #work1 .sp .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work1 .sp .owl-carousel .owl-stage-outer {
+            margin-bottom: 6%; }
+          .work #work1 .sp .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left;
+            margin-left: 24%; }
+          .work #work1 .sp .owl-carousel .owl-dot {
+            width: 20px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work1 .sp .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work1 .sp .owl-carousel img {
+            height: 37rem; }
+      .work #work1 div:last-of-type {
+        display: flex;
+        width: 100%;
+        justify-content: center; }
+        .work #work1 div:last-of-type p {
+          color: #038f79;
+          font-size: 23px;
+          font-family: "しねきゃぷしょん";
+          margin-top: 2.5%;
+          margin-bottom: 0; }
+    .work #work2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .work #work2 .pc {
+        width: 31.5%;
+        margin-top: 1.5%;
+        margin-left: 9%;
+        margin-right: 11%; }
+        .work #work2 .pc .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work2 .pc .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left;
+            margin-top: 8%;
+            margin-left: 10%; }
+          .work #work2 .pc .owl-carousel .owl-dot {
+            width: 20px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work2 .pc .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work2 .pc .owl-carousel img {
+            height: 35rem; }
+      .work #work2 .sp {
+        width: 36.5%;
+        margin-top: 1.5%; }
+        .work #work2 .sp .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work2 .sp .owl-carousel .owl-stage-outer {
+            margin-bottom: 6%; }
+          .work #work2 .sp .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left;
+            margin-left: 36%; }
+          .work #work2 .sp .owl-carousel .owl-dot {
+            width: 20px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work2 .sp .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work2 .sp .owl-carousel img {
+            height: 352px;
+            width: 100%; }
+      .work #work2 div:last-of-type {
+        display: flex;
+        width: 100%;
+        justify-content: center; }
+        .work #work2 div:last-of-type p {
+          color: #038f79;
+          font-size: 23px;
+          font-family: "しねきゃぷしょん";
+          margin-top: 2.5%;
+          margin-bottom: 0; } }
+
+.contact .row {
+  display: flex;
+  justify-content: center; }
+  @media (min-width: 551px) {
+    .contact .row p {
+      margin-top: 19%;
+      font-size: 18px;
+      text-align: center; }
+    .contact .row ul {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 14%; } }
+
+footer {
+  background-color: #f7f7e8;
+  border-top: 1px solid #626262; }
+  @media (min-width: 551px) {
+    footer {
+      margin-top: 4%; }
+      footer p {
+        text-align: center;
+        margin-bottom: 0;
+        height: 4rem;
+        font-size: 18px;
+        padding-top: 1%;
+        letter-spacing: 0.1rem; } }
 
 /*# sourceMappingURL=style.css.map */

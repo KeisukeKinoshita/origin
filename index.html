@@ -8,6 +8,16 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="sass/style.css">
+        <!-- owl carousel css-->
+        <link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owl/assets/owl.theme.dafault.min.css">
+        <!-- jquery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- owl carousel js -->
+        <script type="text/javascript" src="owl/owl.carousel.min.js"></script>
+        <!-- owl動作させるため追加-->
+        <script type="text/javascript" src="carousel.js"></script>
+
     </head>
     <body>
         <header>
@@ -108,5 +118,76 @@
                 </div>
             </div>
         </article>
+        <article class="work">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns" id="work_title">
+                        <p>MY WORK</p>
+                    </div>
+                </div>
+                <div class="row box">
+                    <div id="work1" class="twelve columns">
+                        <div class="pc">
+                            <div class="owl-carousel owl-theme">
+                                <div><img src="images/pc/corp_index.png"></div>
+                                <div><img src="images/pc/corp_news.png"></div>
+                                <div><img src="images/pc/corp_company.png"></div>
+                            </div>
+                        </div>
+                        <div class="sp">
+                            <div class="owl-carousel owl-theme">
+                               <div><img src="images/sp/corp_index.png" style="max-height:35rem;"></div>
+                               <div><img src="images/sp/corp_news.png" style="max-height:35rem;width:11rem;text-align:center;"></div>
+                               <div><img src="images/sp/corp_company.png" style="max-height:35rem;width:11rem;text-align:center;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>コーポレートサイトサンプル</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row box">
+                    <div id="work2" class="twelve columns ">
+                    <div class="pc">
+                            <div class="owl-carousel owl-theme">
+                                <div><img src="images/pc/shop_index.png"></div>
+                                <div><img src="images/pc/shop_list.png"></div>
+                                <div><img src="images/pc/shop_item.png"></div>
+                            </div>
+                        </div>
+                        <div class="sp">
+                            <div class="owl-carousel owl-theme" >
+                               <div><img src="images/sp/index.png" ></div>
+                               <div><img src="images/sp/list.png"></div>
+                    
+                               <div><img src="images/sp/item.png" ></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>ECサイトサンプル</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns">
+                        <p>ご連絡はこちらから</p>
+                        <ul>
+                            <li><img src="images/mail.png" srcset="images/mail@2x.png"></li>
+                            <li><img src="images/github.png" srcset="images/github@2x.png"></li>
+                            <li><img src="images/tel.png" srcset="images/tel@2x.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <p>Created by Keisuke Kinoshita</p>
+        </footer>
+        
     </body>
 </html>
