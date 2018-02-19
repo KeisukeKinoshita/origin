@@ -1,0 +1,268 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Abel";
+html body {
+  font-family: Abel,YuGothic,"メイリオ",Verdana,Meiryo,sans-serif; }
+html li {
+  list-style: none; }
+
+header {
+  font-family: Abel;
+  background-color: #f7f7e8;
+  display: flex;
+  flex-wrap: wrap; }
+  header #title img {
+    background-color: #f7f7e8; }
+  @media (max-width: 550px) {
+    header .container {
+      padding: 0; }
+    header .row {
+      display: flex;
+      flex-direction: column; }
+    header #title, header #icon, header #menu {
+      width: 100%; }
+    header #title {
+      order: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header #title div {
+        width: 40%; }
+        header #title div img {
+          padding-bottom: 3%;
+          width: 100%; }
+    header #icon {
+      order: 1;
+      display: flex;
+      justify-content: center; }
+      header #icon div {
+        display: flex;
+        justify-content: center; }
+        header #icon div img {
+          width: 50%;
+          height: 67%;
+          margin-top: 9%; }
+    header #menu {
+      order: 3; }
+      header #menu ul {
+        height: 3.5rem;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        header #menu ul li {
+          display: flex;
+          margin-bottom: 0;
+          color: white;
+          background-color: #b2ae9f;
+          font-size: 14px;
+          width: 33%;
+          justify-content: center;
+          align-items: center;
+          height: 100%; } }
+  @media (min-width: 551px) {
+    header {
+      height: 80px; }
+      header #title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem; }
+      header #icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8rem; }
+        header #icon img {
+          margin-top: 3%; }
+      header #menu {
+        width: 33%;
+        margin-left: 0;
+        display: flex;
+        justify-content: flex-end; }
+        header #menu div {
+          width: 81%; }
+        header #menu ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 13%; }
+          header #menu ul li {
+            font-size: 19px;
+            color: #626262; } }
+
+@media (max-width: 550px) {
+  article.first .container {
+    padding: 0; }
+  article.first #eyecatch {
+    display: flex;
+    justify-content: center; }
+    article.first #eyecatch img {
+      width: 56%;
+      margin-top: 3.5%;
+      height: 9.2rem; }
+  article.first #profile {
+    font-size: 12px;
+    letter-spacing: 0.07rem;
+    line-height: 167%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center; }
+    article.first #profile p {
+      margin-bottom: 0; } }
+@media (min-width: 551px) {
+  article.first .container {
+    width: 92%; }
+  article.first #eyecatch {
+    margin-top: 3.9%; }
+  article.first #profile {
+    font-size: 18px;
+    height: 40rem;
+    display: flex;
+    font-family: "メイリオ";
+    margin-left: 1.7%; }
+    article.first #profile div {
+      display: flex;
+      align-items: center; }
+      article.first #profile div p {
+        line-height: 3.1rem;
+        letter-spacing: 0.09rem;
+        margin-top: 4%; } }
+
+.skill {
+  background-color: #d8d6c7; }
+  .skill .row {
+    display: flex;
+    justify-content: center; }
+  .skill .five.columns {
+    background-color: white; }
+  .skill .iconbox {
+    background-color: #038f79; }
+  @media (max-width: 550px) {
+    .skill {
+      margin-top: 4%; }
+      .skill #skill_box {
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        margin-top: 1rem;
+        margin-bottom: 0.5%; }
+        .skill #skill_box p {
+          margin-bottom: 1%; }
+      .skill section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5%; }
+        .skill section .five.columns {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 49%; }
+          .skill section .five.columns .iconbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 88%;
+            height: 6.2rem;
+            border-radius: 5px;
+            margin-top: 9%; }
+            .skill section .five.columns .iconbox img {
+              width: 33%;
+              height: 6rem; }
+          .skill section .five.columns .description {
+            display: flex;
+            flex-direction: column;
+            width: 88%;
+            margin-bottom: 2.5%; }
+            .skill section .five.columns .description p:first-of-type {
+              text-align: center;
+              height: 21%;
+              color: #038f79;
+              font-size: 23px;
+              margin-top: 5%;
+              margin-bottom: 0;
+              letter-spacing: 0.25rem; }
+            .skill section .five.columns .description p:last-of-type {
+              font-size: 17px;
+              margin-top: 5%;
+              font-family: "メイリオ";
+              line-height: 117%;
+              letter-spacing: 0.01rem;
+              margin-bottom: 4%; }
+        .skill section #hc .iconbox img {
+          width: 28%;
+          height: 61%;
+          margin-top: 1%;
+          margin-right: 4.5%;
+          margin-left: 3%; }
+        .skill section #hc .description p:last-of-type {
+          font-size: 17px; }
+        .skill section #js img {
+          height: 93%; }
+        .skill section #wp img {
+          width: 33%;
+          height: 70%; }
+        .skill section #wp p:first-of-type {
+          letter-spacing: 0.1rem; }
+        .skill section #wp p:last-of-type {
+          letter-spacing: 0.02rem; }
+        .skill section #ps img {
+          width: 38%;
+          height: 81%; }
+        .skill section #ps .description p:first-of-type {
+          letter-spacing: 0.1rem; }
+        .skill section #ps .description p:last-of-type {
+          font-size: 16px;
+          letter-spacing: 0.01rem; } }
+  @media (min-width: 551px) {
+    .skill #skill_box {
+      text-align: center;
+      color: white;
+      font-size: 33px;
+      margin-top: 1rem;
+      margin-bottom: 0.5%; }
+    .skill section {
+      width: 95.5%;
+      margin-bottom: 2.5%; }
+      .skill section .five.columns {
+        background-color: white;
+        width: 48.3%;
+        margin-left: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+        .skill section .five.columns .iconbox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 69%;
+          height: 13.1rem;
+          border-radius: 10px;
+          margin-top: 9.5%; }
+          .skill section .five.columns .iconbox img {
+            margin-left: 6%;
+            margin-right: 6%; }
+        .skill section .five.columns .description {
+          display: flex;
+          flex-direction: column;
+          width: 69%;
+          margin-bottom: 2.5%; }
+          .skill section .five.columns .description p:first-of-type {
+            padding-top: 3%;
+            text-align: center;
+            color: #038f79;
+            font-size: 36px;
+            margin-bottom: 1.1rem;
+            letter-spacing: 0.05rem; }
+          .skill section .five.columns .description p:last-of-type {
+            margin-top: 2%;
+            font-size: 21px;
+            font-family: "メイリオ";
+            line-height: 3rem;
+            letter-spacing: 0.06rem; }
+      .skill section .five.columns:first-child {
+        margin-left: 0; }
+    .skill .row:last-of-type {
+      margin-bottom: 3%; } }
+
+/*# sourceMappingURL=style.css.map */
