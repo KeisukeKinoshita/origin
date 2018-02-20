@@ -4,6 +4,9 @@ html body {
   font-family: Abel,YuGothic,"メイリオ","しねきゃぷしょん",Verdana,Meiryo,sans-serif; }
 html li {
   list-style: none; }
+html a {
+  color: white;
+  text-decoration: none; }
 
 header {
   font-family: Abel;
