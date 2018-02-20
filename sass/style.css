@@ -141,6 +141,8 @@ header {
   @media (max-width: 550px) {
     .skill {
       margin-top: 4%; }
+      .skill .row:last-of-type {
+        margin-bottom: 4%; }
       .skill #skill_box {
         text-align: center;
         color: white;
@@ -401,19 +403,168 @@ header {
           font-family: "しねきゃぷしょん";
           margin-top: 2.5%;
           margin-bottom: 0; } }
+@media (max-width: 550px) {
+  .work {
+    margin-top: 6%;
+    padding-bottom: 2.5%;
+    background-color: #d8d6c7; }
+    .work .container {
+      width: 92%;
+      padding: 0; }
+    .work #work_title {
+      text-align: center;
+      color: white;
+      font-size: 18px; }
+      .work #work_title p {
+        margin-bottom: 0; }
+    .work .box {
+      background-color: white;
+      margin-top: 1.5%; }
+    .work .box:last-of-type {
+      margin-top: 2%; }
+    .work #work1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .work #work1 .pc {
+        width: 27.5%;
+        margin-top: 1.5%;
+        margin-left: 15%;
+        margin-right: 8%; }
+        .work #work1 .pc .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work1 .pc .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left; }
+          .work #work1 .pc .owl-carousel .owl-dot {
+            width: 10px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work1 .pc .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work1 .pc .owl-carousel img {
+            height: 14rem; }
+      .work #work1 .sp {
+        width: 38.8%;
+        margin-top: 1.5%; }
+        .work #work1 .sp .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work1 .sp .owl-carousel .owl-stage-outer {
+            margin-bottom: 6%; }
+          .work #work1 .sp .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left;
+            margin-left: 24%; }
+          .work #work1 .sp .owl-carousel .owl-dot {
+            width: 10px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work1 .sp .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work1 .sp .owl-carousel img {
+            height: 14rem; }
+          .work #work1 .sp .owl-carousel img.small {
+            width: 33%; }
+      .work #work1 div:last-of-type {
+        display: flex;
+        width: 100%;
+        justify-content: center; }
+        .work #work1 div:last-of-type p {
+          color: #038f79;
+          font-size: 9px;
+          font-family: "しねきゃぷしょん";
+          margin-bottom: 0; }
+    .work #work2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .work #work2 .pc {
+        width: 27.5%;
+        margin-top: 1.5%;
+        margin-left: 15%;
+        margin-right: 8%; }
+        .work #work2 .pc .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work2 .pc .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left; }
+          .work #work2 .pc .owl-carousel .owl-dot {
+            width: 10px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work2 .pc .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work2 .pc .owl-carousel img {
+            height: 14rem; }
+      .work #work2 .sp {
+        width: 38.8%;
+        margin-top: 1.5%; }
+        .work #work2 .sp .owl-carousel {
+          display: flex;
+          flex-direction: column; }
+          .work #work2 .sp .owl-carousel .owl-stage-outer {
+            margin-bottom: 6%; }
+          .work #work2 .sp .owl-carousel .owl-dots {
+            display: flex;
+            justify-content: left;
+            margin-left: 24%; }
+          .work #work2 .sp .owl-carousel .owl-dot {
+            width: 10px;
+            height: 3px;
+            margin-top: 10px;
+            margin-right: 2%;
+            background-color: #f7f7e8; }
+          .work #work2 .sp .owl-carousel .owl-dot.active {
+            background-color: red; }
+          .work #work2 .sp .owl-carousel img {
+            height: 14rem; }
+          .work #work2 .sp .owl-carousel img.small {
+            width: 33%; }
+      .work #work2 div:last-of-type {
+        display: flex;
+        width: 100%;
+        justify-content: center; }
+        .work #work2 div:last-of-type p {
+          color: #038f79;
+          font-size: 9px;
+          font-family: "しねきゃぷしょん";
+          margin-bottom: 0; } }
 
-.contact .row {
+.contact .container {
   display: flex;
   justify-content: center; }
-  @media (min-width: 551px) {
+@media (min-width: 551px) {
+  .contact p {
+    margin-top: 19%;
+    font-size: 18px;
+    text-align: center; }
+  .contact ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14%; } }
+@media (max-width: 550px) {
+  .contact .row {
+    width: 68%; }
     .contact .row p {
-      margin-top: 19%;
-      font-size: 18px;
-      text-align: center; }
+      margin-top: 4%;
+      font-size: 8px;
+      text-align: center;
+      margin-bottom: 0; }
     .contact .row ul {
       display: flex;
       justify-content: space-between;
-      margin-top: 14%; } }
+      margin-top: 9%; }
+      .contact .row ul img {
+        zoom: 0.5; } }
 
 footer {
   background-color: #f7f7e8;
