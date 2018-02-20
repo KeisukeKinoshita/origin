@@ -367,69 +367,41 @@ article.first{
         .container{
             width:92%;
         }
-    margin-top:3%;
-    padding-bottom:4.5%;
-    background-color: $sub_skill_color;
-    #work_title{
-        text-align:center;
-        color:white;
-        font-size:33px;
-        margin-top:1rem;
-        p{
-            margin-bottom:0;
-        }
-    }
-    .box{
-        background-color:white;
-        margin-top:1.5%;
-    }
-    .box:last-of-type{
-        margin-top:4%;
-    }
-    #work1{
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        .pc{
-            width:27.5%;
-            margin-top:1.5%;
-            margin-left:15%;
-            margin-right:8%;
-            .owl-carousel{
-                display:flex;
-                flex-direction:column;
-                .owl-dots{
-                    display:flex;
-                    justify-content:left;
-                }
-                .owl-dot{
-                    width:20px;
-                    height:3px;
-                    margin-top:10px;
-                    margin-right:2%;
-                    background-color:$sub_sub_color;
-                }
-                .owl-dot.active{
-                    background-color:red;
-                }
-                img{
-                    height:37rem;
-                }
+        margin-top:3%;
+        padding-bottom:4%;
+        background-color: $sub_skill_color;
+        #work_title{
+            text-align:center;
+            color:white;
+            font-size:33px;
+            margin-top:1rem;
+            p{
+                margin-bottom:0;
             }
         }
-        .sp{
-            width:38.8%;
+        .box{
+            background-color:white;
             margin-top:1.5%;
+        }
+        .box:last-of-type{
+            margin-top:4%;
+        }
+        #work1{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            .pc{
+                width:27.5%;
+                margin-top:1.5%;
+                margin-left:15%;
+                margin-right:8%;
                 .owl-carousel{
                     display:flex;
                     flex-direction:column;
-                    .owl-stage-outer{
-                        margin-bottom:6%;
-                    }
                     .owl-dots{
                         display:flex;
                         justify-content:left;
-                        margin-left:24%;
+                        margin-top:3%;
                     }
                     .owl-dot{
                         width:20px;
@@ -442,69 +414,73 @@ article.first{
                         background-color:red;
                     }
                     img{
-                        height:37rem;
+                        height:36rem;
                     }
                 }
             }
-        div:last-of-type{
-            display:flex;
-            width:100%;
-            justify-content:center;
-            p{
-            color:$one_color;
-            font-size:23px;
-            font-family:"しねきゃぷしょん";
-            margin-top:2.5%;
-            margin-bottom:0;
-            }
-        }
-    }
-    #work2{
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        .pc{
-            width:31.5%;
-            margin-top:1.5%;
-            margin-left:9%;
-            margin-right:11%;
-            .owl-carousel{
+            .sp{
+                width:38.8%;
+                margin-top:1.5%;
+                    .owl-carousel{
+                        display:flex;
+                        flex-direction:column;
+                        .owl-stage-outer{
+                        }
+                        .owl-dots{
+                            display:flex;
+                            justify-content:left;
+                            margin-left:24%;
+                            margin-top:6%;
+                        }
+                        .owl-dot{
+                            width:20px;
+                            height:3px;
+                            margin-top:10px;
+                            margin-right:2%;
+                            background-color:$sub_sub_color;
+                        }
+                        .owl-dot.active{
+                            background-color:red;
+                        }
+                        img{
+                            height:35rem;
+                        }
+                        img.small{
+                            width:32%;
+                        }
+                        
+                    }
+                }
+            div:last-of-type{
                 display:flex;
-                flex-direction:column;
-                .owl-dots{
-                    display:flex;
-                    justify-content:left;
-                    margin-top:8%;
-                    margin-left:10%;
-                }
-                .owl-dot{
-                    width:20px;
-                    height:3px;
-                    margin-top:10px;
-                    margin-right:2%;
-                    background-color:$sub_sub_color;
-                }
-                .owl-dot.active{
-                    background-color:red;
-                }
-                img{
-                    height:35rem;
+                width:100%;
+                justify-content:center;
+                p{
+                color:$one_color;
+                font-size:23px;
+                font-family:"しねきゃぷしょん";
+                margin-top:2.5%;
+                margin-bottom:0;
                 }
             }
         }
-        .sp{
-            width:36.5%;
-            margin-top:1.5%;
+        #work2{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            .pc{
+                width:31.5%;
+                margin-top:1.5%;
+                margin-left:9%;
+                margin-right:11%;
                 .owl-carousel{
                     display:flex;
                     flex-direction:column;
-                    .owl-stage-outer{
-                        margin-bottom:6%;
-                    }
                     .owl-dots{
                         display:flex;
                         justify-content:left;
-                        margin-left:36%;
+                        margin-top:5%;
+                        margin-left:19%;
                     }
                     .owl-dot{
                         width:20px;
@@ -517,24 +493,57 @@ article.first{
                         background-color:red;
                     }
                     img{
-                        height:352px;
-                        width:100%;
+                        height:36rem;
                     }
                 }
             }
-        div:last-of-type{
-            display:flex;
-            width:100%;
-            justify-content:center;
-            p{
-            color:$one_color;
-            font-size:23px;
-            font-family:"しねきゃぷしょん";
-            margin-top:2.5%;
-            margin-bottom:0;
+            .sp{
+                width:36.5%;
+                margin-top:1.5%;
+                    .owl-carousel{
+                        display:flex;
+                        flex-direction:column;
+                        .owl-stage-outer{
+                            margin-bottom:6%;
+                        }
+                        .owl-dots{
+                            display:flex;
+                            justify-content:left;
+                            margin-left:22%;
+                            margin-top:2%;
+                        }
+                        .owl-dot{
+                            width:20px;
+                            height:3px;
+                            margin-top:10px;
+                            margin-right:2%;
+                            background-color:$sub_sub_color;
+                        }
+                        .owl-dot.active{
+                            background-color:red;
+                        }
+                        img{
+                            height:35rem;
+                            width:100%;
+                        }
+                        img.small{
+                            width:32%;
+                        }
+                    }
+                }
+            div:last-of-type{
+                display:flex;
+                width:100%;
+                justify-content:center;
+                p{
+                color:$one_color;
+                font-size:23px;
+                font-family:"しねきゃぷしょん";
+                margin-top:2.5%;
+                margin-bottom:0;
+                }
             }
         }
-    }
     }
     @media(max-width:550px){
                 .container{
@@ -716,19 +725,27 @@ article.first{
 .contact{
     .container{
         display:flex;
-        justify-content:center;
+        justify-content: center;
     }
     @media(min-width:551px){
-    p{
-        margin-top:19%;
-        font-size:18px;
-    text-align:center;
-    }
-    ul{
-        display:flex;
-        justify-content:space-between;
-        margin-top:14%;
-    }
+        .row{
+            display:flex;
+            justify-content:center;
+            width:97%;
+            p{
+                margin-top:19%;
+                font-size:18px;
+            text-align:center;
+            }
+            ul{
+                display:flex;
+                justify-content:space-between;
+                margin-top:14%;
+                li{
+                    margin-top:1%;
+                }
+            }
+        }
     }
     @media(max-width:550px){
         .row{
@@ -758,7 +775,7 @@ footer{
     background-color:$sub_sub_color;
     border-top:1px solid #626262;
     @media(min-width:551px){
-        margin-top:4%;
+        margin-top:4.5%;
         p{
             text-align: center;
             margin-bottom: 0;
@@ -773,8 +790,8 @@ footer{
         p{
             text-align: center;
             margin-bottom: 0;
-            height:4rem;
-            font-size:18px;
+            height:1rem;
+            font-size:9px;
             padding-top:1%;
             letter-spacing:0.1rem;
             
